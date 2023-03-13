@@ -12,6 +12,8 @@ vector<vector<int>> createMatrix(int row, int column){
     return matrix;
 }
 
+// Working Method
+
 void addMatrix(int row, int column, vector<vector<int>> matrix,vector<vector<int>> matrix2){
 
     vector<vector<int>> result(row, vector<int>(column));
@@ -31,6 +33,8 @@ void addMatrix(int row, int column, vector<vector<int>> matrix,vector<vector<int
     }
 
 }
+
+// Working Method
 
 
 void SubMatrix(int row, int column, vector<vector<int>> matrix,vector<vector<int>> matrix2){
@@ -52,6 +56,8 @@ void SubMatrix(int row, int column, vector<vector<int>> matrix,vector<vector<int
     }
 
 }
+
+// Not Working Method
 
 void Multi_Matrix(int row, int column, vector<vector<int>> matrix,vector<vector<int>> matrix2){
 
@@ -78,8 +84,8 @@ int main(){
     cout << "enter Row, Column" << endl;
     cin >> row >> column;
 
-//    addMatrix(row, column, createMatrix(row, column), createMatrix(row, column));
-//    SubMatrix(row, column, createMatrix(row, column), createMatrix(row, column));
+   addMatrix(row, column, createMatrix(row, column), createMatrix(row, column));
+   SubMatrix(row, column, createMatrix(row, column), createMatrix(row, column));
     Multi_Matrix(row, column, createMatrix(row, column), createMatrix(row, column));
 
 

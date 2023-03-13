@@ -1,4 +1,8 @@
-//Check Where the number is Palidrome
+/* Question: Check the given number is Amstrong or not
+ * Date: 01/03/2023
+ * Amstrong Number: 153 = 1^3 + 5^3 + 3^3
+ * Amstrong Number: 370 = 3^3 + 7^3 + 0^3
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
